@@ -1,0 +1,92 @@
+/* Estilos personalizados para el Navbar de Bootstrap */
+.navbar {
+    background-color: #ff69b4;
+    border-bottom: 2px solid #ec1771;
+    border-radius: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s;
+    margin-right: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ec1771;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-toggler-icon:hover {
+    background-color: #ec1771;
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        display: none; 
+    }
+
+    .navbar-toggler {
+        display: none; 
+    }
+
+}
+
+/* Estilos para el contenido principal */
+body {
+    margin: 0;
+    background: #020202;
+    cursor: crosshair;
+    text-align: center;
+}
+
+#content {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #F4F5F7;
+    font-family: "Impact, Charcoal, sans-serif";
+    font-weight: 800;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}

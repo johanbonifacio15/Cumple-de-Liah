@@ -1,0 +1,336 @@
+/* Estilos para el Navbar */
+.navbar {
+    background-color: #ff69b4;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex !important;
+    justify-content: space-between !important; 
+    align-items: center !important; 
+    padding: 10px 20px; 
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+/* Estilos para los enlaces del Navbar */
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #ff3385 !important;
+}
+
+
+.navbar-toggler-icon {
+    background-color: #fff; 
+}
+
+
+/* Estilos para el menú desplegable en dispositivos móviles */
+@media (max-width: 991px) {
+    .navbar-nav {
+        background-color: #ff69b4;
+        text-align: center;
+    }
+    
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+    
+    .navbar-nav .nav-link {
+        color: #fff !important;
+    }
+
+    .navbar-collapse {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out;
+    }
+    
+    .navbar-collapse.show {
+        max-height: 500px; 
+    }
+    
+}
+
+/* Estilos para el contenido de cumpleaños */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+}
+
+.birthday-wish {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px;
+    color: #ff69b4;
+}
+
+/* Estilos para el carrusel */
+
+#imageCarousel {
+    margin-top: 20px;
+    max-width: 200px;
+}
+
+
+
+.carousel-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenedor del carrusel */
+    margin-top: 20px;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+
+.birthday-message {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.btn-pink {
+    background-color: #ff69b4 !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 5px !important;
+    padding: 10px 20px !important;
+    margin: 10px !important;
+    font-size: 18px !important;
+    text-decoration: none !important;
+    transition: background-color 0.3s !important;
+}
+
+
+.btn-pink:hover {
+    background-color: #ff3385 !important;
+}
+
+.songs-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card {
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    width: 200px;
+    height: auto; /* Se ajustará automáticamente para mantener la proporción */
+    object-fit: cover; /* Ajusta la forma en que se muestra la imagen */
+}
+
+
+.card-title {
+    font-size: 20px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #777;
+}
+
+.btn-primary {
+    background-color: #ff69b4 !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 5px !important;
+    padding: 10px 20px !important;
+    font-size: 16px;
+    text-decoration: none !important;
+    transition: background-color 0.3s !important;
+}
+
+.btn-primary:hover {
+    background-color: #ff3385 !important;
+}
+
+@media (max-width: 414px) {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none !important;
+    }
+
+    .card {
+        max-width: 90%; 
+    }
+
+    .card-img-top{
+        height: 500px;
+        object-fit: contain;
+    }
+
+    .card-title {
+        font-size: 18px; 
+    }
+
+    .card-text {
+        font-size: 14px; 
+    }
+
+    .btn-primary {
+        font-size: 14px; 
+        padding: 8px 16px !important; 
+    }
+}
+
+.about-section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+
+.testimonial {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.testimonial-text {
+    font-size: 18px;
+    color: #333;
+    margin-top: 15px;
+}
+
+.testimonial-author {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Estilos para la galería de imágenes */
+
+.gallery-section {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #ff69b4;
+}
+
+.row > div {
+    margin-bottom: 20px;
+}
+
+.row > div img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para Lightbox */
+.lb-outerContainer {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.lb-container {
+    background: transparent;
+}
+
+.lb-image {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.lb-dataContainer {
+    background: transparent;
+    color: #fff;
+}
+
+.lb-caption {
+    padding: 0;
+}
+
+.lb-number {
+    color: #ff69b4;
+}
+
+/* Estilos para los botones de Lightbox */
+.lb-nav {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.lb-backdrop {
+    background: transparent; 
+}
+
+.lb-image {
+    transition: transform 0.2s ease; 
+}
+
+.lb-prev, .lb-next {
+    color: #ff69b4;
+}
+
+.lb-close {
+    color: #fff;
+    font-size: 30px;
+}
+
+#scroll-to-top {
+    background-color: #ff69b4;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 24px;
+  }
+  
+
+
+
