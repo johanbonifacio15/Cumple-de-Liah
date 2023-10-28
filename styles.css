@@ -147,8 +147,8 @@
 
 .card-img-top {
     width: 200px;
-    height: auto; /* Se ajustará automáticamente para mantener la proporción */
-    object-fit: cover; /* Ajusta la forma en que se muestra la imagen */
+    height: auto; 
+    object-fit: cover; 
 }
 
 
@@ -186,6 +186,12 @@
 
     .card {
         max-width: 90%; 
+    }
+
+    .song-card-img-top{
+        width: 100%;
+        height: 300px;
+        object-fit: contain;
     }
 
     .card-img-top{
@@ -239,6 +245,7 @@
     font-size: 18px;
     color: #333;
     margin-top: 15px;
+    text-align: justify;
 }
 
 .testimonial-author {
@@ -319,6 +326,42 @@
 .lb-close {
     color: #fff;
     font-size: 30px;
+}
+
+body {
+    background-color: #f0f0f0; /* Fondo de la página */
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #e6e6e6; /* Fondo del footer */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #ff69b4; /* Color de íconos y enlaces */
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #ff3366; /* Cambio de color al pasar el ratón */
+}
+
+#redes{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ff69b4;
 }
 
 #scroll-to-top {
