@@ -79,6 +79,15 @@
     color: #ff69b4;
 }
 
+.birthday-message {
+    padding: 10px;
+    text-align: justify !important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: #ff3385;
+    border-radius: 15px;
+    border-style: double;
+}
+
 /* Estilos para el carrusel */
 
 #imageCarousel {
