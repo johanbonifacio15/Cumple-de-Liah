@@ -304,7 +304,6 @@
     color: #ff69b4;
 }
 
-/* Estilos para los botones de Lightbox */
 .lb-nav {
     background: transparent;
     border: none;
@@ -329,12 +328,12 @@
 }
 
 body {
-    background-color: #f0f0f0; /* Fondo de la página */
+    background-color: #f0f0f0; 
     font-family: Arial, sans-serif;
 }
 
 footer {
-    background-color: #e6e6e6; /* Fondo del footer */
+    background-color: #e6e6e6; 
     padding: 20px 0;
     text-align: center;
 }
@@ -351,12 +350,12 @@ footer {
 
 .social-icons a {
     text-decoration: none;
-    color: #ff69b4; /* Color de íconos y enlaces */
+    color: #ff69b4; 
     font-size: 24px;
 }
 
 .social-icons a:hover {
-    color: #ff3366; /* Cambio de color al pasar el ratón */
+    color: #ff3366; 
 }
 
 #redes{
